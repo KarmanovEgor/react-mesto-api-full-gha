@@ -1,0 +1,7 @@
+.login__button__disabled {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #604848;
+    opacity: .2;
+  }
+

@@ -1,0 +1,15 @@
+.element__names {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 246px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px 20px 26px 21px;
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .element__names {
+    padding: 24px 20px 23px 21px;
+  }
+}

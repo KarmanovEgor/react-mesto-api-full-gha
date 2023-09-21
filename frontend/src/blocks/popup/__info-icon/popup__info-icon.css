@@ -1,0 +1,10 @@
+.popup__info-icon {
+    display: block;
+    margin: 0 auto;
+    background-image: url('../../../images/galka.svg');
+    width: 120px;
+    height: 120px;
+    background-size: 100%;
+    background-size: cover;
+ 
+}

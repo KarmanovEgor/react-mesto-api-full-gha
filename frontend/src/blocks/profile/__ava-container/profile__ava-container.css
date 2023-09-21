@@ -1,0 +1,17 @@
+.profile__ava-container{
+  max-width: 168.75px;
+  min-height: 120px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 38px 30px 49px 0;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__ava-container{
+        margin: 42px auto 23px auto;
+      }
+}
+

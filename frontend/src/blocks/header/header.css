@@ -1,0 +1,37 @@
+.header {
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+
+  .header {
+    width: calc(720px + (880 - 720) * ((100vw - 768px)/(1024 - 768)));
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .header   {
+    width: calc(320px + (720 - 320) * ((100vw - 320px)/(768 - 320)));
+  }
+}
+@media screen and (max-width: 640px) {
+
+
+
+  .header::after {
+     position: absolute;
+     content: "";
+     left: 0;
+     bottom: 84px;
+     background-color: rgba(84, 84, 84, 0.7);
+     height: 1px;
+     width: 100%;
+  }
+}

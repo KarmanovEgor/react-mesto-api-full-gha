@@ -1,0 +1,34 @@
+
+.header__block {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    transition: all 0.5s ease-out;
+    
+}
+@media screen and (max-width: 640px) {
+    .header__block {
+margin: 0;
+display: block;
+font-size: 18px;
+line-height: 22px;
+position: absolute;
+opacity: 0;
+top: 14px;
+left: 50%;
+text-align: center;
+transform: translate(-50%, -0);
+}
+.header__block-active {
+    opacity: 1;
+ }
+}

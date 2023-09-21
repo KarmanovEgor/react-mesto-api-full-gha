@@ -1,0 +1,10 @@
+.popup__info-icon-fals {
+    display: block;
+   margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    background-image: url('../../../../images/crest.svg');
+    background-size: 100%;
+    background-size: cover;
+
+}
