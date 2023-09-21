@@ -1,4 +1,4 @@
-export const BaseURL = "http://localhost:3002";
+export const BaseURL = "https://api.cohort68.karmanov.nomoredomainsrocks.ru";
 
 const handleResponse = (response) =>
   response.ok ? response.json() : Promise.reject(`Ошибка ${response.status}`);

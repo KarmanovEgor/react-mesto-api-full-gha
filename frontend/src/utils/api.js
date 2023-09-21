@@ -109,6 +109,6 @@ class Api {
   }
 }
 const api = new Api({
-  baseUrl: "http://localhost:3002",
+  baseUrl: "https://api.cohort68.karmanov.nomoredomainsrocks.ru",
 });
 export default api;

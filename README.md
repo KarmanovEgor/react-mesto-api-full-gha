@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.114.75
 
-Frontend https://...
+Frontend https://api.cohort68.karmanov.nomoredomainsrocks.ru
 
-Backend https://...
+Backend https://cohort68.karmanov.nomoredomainsrocks.ru
