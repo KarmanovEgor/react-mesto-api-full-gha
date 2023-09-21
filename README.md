@@ -9,7 +9,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 158.160.114.75
+IP 158.160.114.75
 
 Frontend https://cohort68.karmanov.nomoredomainsrocks.ru
 
